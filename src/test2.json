@@ -1,0 +1,24 @@
+{
+  "treeList": [
+    {
+      "treeItem": "운영",
+      "type": "PRODUCE"
+    },
+    {
+      "treeItem": "Back-end",
+      "type": "REGISTRATION"
+    },
+    {
+      "treeItem": "Front-end",
+      "type": "API"
+    },
+    {
+      "treeItem": "UI/UX",
+      "type": "VIEW"
+    },
+    {
+      "treeItem": "API",
+      "type": "NOTICE"
+    }
+  ]
+}

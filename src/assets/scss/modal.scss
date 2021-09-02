@@ -1,0 +1,49 @@
+.tree-dim {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #000000;
+  opacity: .3;
+}
+
+.tree-modal-wrap {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 45rem;
+  height: 15rem;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 10px;
+  //box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, .3);
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  span {
+    margin-right: 1rem;
+  }
+  input {
+    width: 30rem;
+    height: 3rem;
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    border: .1rem solid #bdbdbd;
+  }
+}
+
+.tree-modal-button-box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  button {
+    margin: 0 2rem;
+  }
+}

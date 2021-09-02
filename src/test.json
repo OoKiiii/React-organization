@@ -1,0 +1,90 @@
+{
+  "treeList": {
+    "PRODUCE": {
+      "type": "PRODUCE",
+      "treeItem": "운영",
+      "treeUser": [
+        {
+          "name": "가아무개",
+          "treeItem": "운영"
+        },
+        {
+          "name": "나아무개",
+          "treeItem": "운영"
+        }
+      ]
+    },
+    "REGISTRATION": {
+      "type": "REGISTRATION",
+      "treeItem": "Back-end",
+      "treeUser": [
+        {
+          "name": "다아무개",
+          "treeItem": "Back-end"
+        },
+        {
+          "name": "라아무개",
+          "treeItem": "Back-end"
+        },
+        {
+          "name": "마아무개",
+          "treeItem": "Back-end"
+        }
+      ]
+    },
+    "API": {
+      "type": "API",
+      "treeItem": "Front-end",
+      "treeUser": [
+        {
+          "name": "바아무개",
+          "treeItem": "Front-end"
+        }
+      ]
+    },
+    "VIEW": {
+      "type": "VIEW",
+      "treeItem": "UI/UX",
+      "treeUser": [
+        {
+          "name": "사아무개",
+          "treeItem": "UI/UX"
+        },
+        {
+          "name": "아아무개",
+          "treeItem": "UI/UX"
+        },
+        {
+          "name": "자아무개",
+          "treeItem": "UI/UX"
+        }
+      ]
+    },
+    "NOTICE": {
+      "type": "NOTICE",
+      "treeItem": "API",
+      "treeUser": [
+        {
+          "name": "차아무개",
+          "treeItem": "API"
+        },
+        {
+          "name": "카아무개",
+          "treeItem": "API"
+        },
+        {
+          "name": "타아무개",
+          "treeItem": "API"
+        },
+        {
+          "name": "파아무개",
+          "treeItem": "API"
+        },
+        {
+          "name": "하아무개",
+          "treeItem": "API"
+        }
+      ]
+    }
+  }
+}

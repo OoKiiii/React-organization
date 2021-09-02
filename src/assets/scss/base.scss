@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+/* @import "https://fonts.googleapis.com/earlyaccess/notosanskr.css"; */
+
+@font-face {
+  font-family:Noto;
+  src:url(../font/NotoSansCJKkr-Regular.eot),
+  url(../font/NotoSansCJKkr-Regular.woff)
+}
+
+body,
+html {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  background: #ffffff;
+  /* font-weight: normal; */
+  zoom: 1;
+  font-size: 10px;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+* {
+  font-family: 'Noto Sans KR', 'Noto', 'Nanum Barun Gothic', 'Malgun Gothic', 'Noto Sans', 'sans-serif', 'Apple SD Neo Gothic', 'Raleway';
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  letter-spacing: -0.08rem;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  /* width: auto; */
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus,
+button:focus,
+input:focus,
+label:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+label,
+button,
+select {
+  cursor: pointer;
+}
+
+dd,
+dl,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+button,
+input,
+fieldset {
+  padding: 0;
+  border: 0;
+}
+
+input[type=email],
+input[type=password],
+input[type=text],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  resize: none;
+  font-size: initial;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=text]::-ms-clear {
+  display: none;
+}
+
+input:disabled {
+  background: #f9f9f9 !important;
+  pointer-events: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+::placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #999999;
+}
+
+::-ms-input-placeholder {
+  color: #999999;
+}
+
+/**********
+  Layout
+***********/
+
+#root {
+  height: 100vh;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  body,
+  html {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  body,
+  html {
+    font-size: 9px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  body,
+  html {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  body,
+  html {
+    font-size: 7px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  body,
+  html {
+    font-size: 6px !important;
+  }
+}
